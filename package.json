@@ -1,0 +1,45 @@
+{
+  "name": "gyeongho-yuv-player",
+  "version": "0.0.0-development",
+  "description": "Video player that render YUV buffer to 2d | webgl | webgl2 | webgpu canvas",
+  "keywords": [
+    "yuv",
+    "video",
+    "player",
+    "webgl",
+    "webgl2",
+    "webgpu",
+    "canvas"
+  ],
+  "homepage": "https://github.com/GyeongHoKim/gyeongho-yuv-player#readme",
+  "bugs": {
+    "url": "https://github.com/GyeongHoKim/gyeongho-yuv-player/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GyeongHoKim/gyeongho-yuv-player.git"
+  },
+  "license": "MIT",
+  "author": "Gyeongho Kim",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "globals": "^16.0.0",
+    "prettier": "3.5.3",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.1"
+  }
+}
